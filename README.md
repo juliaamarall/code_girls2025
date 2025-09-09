@@ -7,7 +7,8 @@
   Quando um usuário faz upload de um livro em PDF, uma função Lambda é acionada para extrair texto e metadados (autor, título, número de páginas) e gerar um índice pesquisável, que é armazenado no DynamoDB.
   
   O arquivo original é mantido em um bucket S3 final, e a aplicação da biblioteca (hospedada em uma instância EC2) permite que os usuários realizem buscas inteligentes por autor, título ou palavra-chave.
-  <img width="646" height="521" alt="image" src="https://github.com/user-attachments/assets/0e323e9a-da7f-4330-872f-f522b74020c6" />
+  <img width="680" height="619" alt="image" src="https://github.com/user-attachments/assets/679411c1-19cb-447a-8b7d-862ac4771c38" />
+
 
 ### 2. Arquitetura:
  Componentes da Arquitetura
